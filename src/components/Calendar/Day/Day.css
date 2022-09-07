@@ -1,0 +1,26 @@
+.Day {
+    margin: 0;
+    border: 2px solid #e6e6e6f5;
+    outline: none;
+    width: 14.28%;
+    height: 100px;
+    background: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.disabled {
+    background-color: #e6e6e6b0;
+}
+
+.Button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btn-showmore{
+    border-radius: 5px;
+    font-weight: normal;
+    margin: auto;
+}

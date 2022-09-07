@@ -1,0 +1,13 @@
+.Line {
+    display: flex;
+    flex-direction: row;
+}
+
+.Title {
+    border: 2px solid #e6e6e6f5;
+    width: 14.28%;
+    background-color: #e6e6e6b0;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}

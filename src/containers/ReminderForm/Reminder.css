@@ -1,0 +1,93 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.tag-new {
+  background-color: #0dee0a;
+  border: 1px solid #0dee0a;
+  padding: 0.1rem 0.5rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+.tag-edit {
+  background-color: #dfee0ac9;
+  border: 1px solid #dfee0ac9;
+  padding: 0.1rem 0.5rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.control input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #0452aa;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #0a015a;
+  border-color: #0a015a;
+  color: white;
+}
+
+.actions .button--alt {
+  color: #0452aa;
+}
+
+.actions .button {
+  background-color: #0452aa;
+  color: white;
+}
+
+.actions .button--del {
+  color: #e93c3c;
+  border: 1px solid #e93c3c;
+}
+
+.button--del:hover,
+.button--del:active {
+  background-color: #e93c3c !important;
+  border-color: #e93c3c !important;
+  color: white !important;
+}
